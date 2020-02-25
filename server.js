@@ -13,7 +13,7 @@ mongoose.connect(config.database,function(err){
 	else{
 		console.log('Connected to DB');
 	}
-},{useNewUrlParser: true});
+});
 
 
 app.use(bodyParser.urlencoded({extended: true}));
